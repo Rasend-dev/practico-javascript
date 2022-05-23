@@ -76,6 +76,7 @@ function areaCirculo(radio) {
 //console.log('El area del circulo miden: ' + areaCirculo + 'cm**2');
 console.groupEnd();
 
+console.group('cuadrado');
 //Interaccion con html
 //Cuadrados
 function calcularPerimetroCuadrado() {
@@ -94,7 +95,8 @@ function calcularAreaCuadrado(){
     const area = areaCuadrado(value);
     alert(area)
 }
-
+console.groupEnd();
+console.group('Triangulos');
 //Triangulos
 function calcularPerimetroTriangulo() {
     const lado = document.getElementById('LadoTriangulo');
@@ -118,3 +120,4 @@ function calcularAreaTriangulo(){
     const area = areaTriangulo(value_base,value_altura);
     alert(area)
 }
+console.groupEnd();
