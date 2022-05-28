@@ -1,7 +1,4 @@
 console.group('Descuento');
-let precio = 120;
-let descuento = 18;
-
 //podemos pasar un objeto al console.log
 //console.log({precio,descuento,porcentajePrecioConDescuento,precioConDescuento});
 
